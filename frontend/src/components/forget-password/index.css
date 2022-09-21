@@ -1,0 +1,58 @@
+.forget-pass-wrap {
+  z-index: 100;
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #fff;
+}
+.forget-pass {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  width: 600px;
+  height: 480px;
+  background-color: #393d49;
+  border-radius: 10px;
+  color: #fff;
+}
+.forget-pass__wrap {
+  padding: 60px 70px;
+}
+.forget-pass__label {
+  margin-top: 15px;
+}
+.forget-pass__item {
+  margin-top: 5px;
+}
+.forget-pass__item input {
+  color: black;
+  width: 100%;
+  height: 32px;
+  border: none;
+  border-radius: 10px;
+  padding: 0 10px;
+  outline: none;
+}
+
+.forget-pass__button {
+  width: 110px;
+  height: 40px;
+  text-align: center;
+  line-height: 40px;
+  background-color: #f09159;
+  color: #fff;
+  border-radius: 10px;
+  margin-top: 32px;
+}
+.forget-pass__close {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  width: 20px;
+  height: 20px;
+  background-image: url('../../../public/images/close.jpg');
+  background-size: cover;
+}

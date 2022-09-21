@@ -1,0 +1,48 @@
+.admin-top {
+  padding: 20px 30px;
+  background-color: #707070;
+  color: #fff;
+}
+.admin-top-exit {
+  cursor: pointer;
+  float: right;
+  width: 57px;
+  height: 19px;
+  background-image: url(../../../public/images/exit.jpg);
+  background-size: 100% 100%;
+}
+.admin-top-form {
+  position: relative;
+  display: flex;
+  margin-top: 50px;
+  justify-content: space-between;
+}
+.admin-top-input {
+  outline: none;
+  border: none;
+  width: 500px;
+  height: 35px;
+  border-radius: 10px;
+  color: black;
+  padding: 0 10px;
+}
+.admin-top-btn {
+  position: absolute;
+  left: 470px;
+  top: 10px;
+  width: 15px;
+  height: 15px;
+  background-image: url(../../../public/images/search.jpg);
+  background-size: 15px;
+  background-repeat: no-repeat;
+  background-position: center;
+  cursor: pointer;
+}
+.admin-top-new {
+  width: 80px;
+  height: 35px;
+  line-height: 35px;
+  text-align: center;
+  background-color: #f29159;
+  border-radius: 10px;
+}

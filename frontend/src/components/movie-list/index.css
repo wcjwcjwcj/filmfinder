@@ -1,0 +1,44 @@
+.admin-main {
+  width: 90%;
+  margin: auto;
+  margin-top: 20px;
+  border-collapse: collapse;
+}
+.admin-main-tr {
+  border-bottom: solid 1px #ccc;
+}
+.admin-main-tr-content {
+  cursor: pointer;
+}
+.admin-main-tr td,
+.admin-main-tr th {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  text-align: center;
+}
+.admin-main-tr th {
+  font-weight: 300;
+  color: #f29159;
+  font-size: 18px;
+}
+.admin-main-tr td {
+  font-size: 14px;
+}
+.admin-main-img {
+  width: 50px;
+  height: 100px;
+}
+.admin-main-detail {
+  max-width: 200px;
+}
+.admin-main-detail__div {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 4;
+  -webkit-box-orient: vertical;
+}
+.admin-main-action {
+  color: #1890ff;
+  cursor: pointer;
+}

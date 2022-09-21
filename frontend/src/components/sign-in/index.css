@@ -1,0 +1,68 @@
+.sign-in-wrap {
+  z-index: 100;
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #fff;
+}
+.sign-in {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  width: 600px;
+  height: 450px;
+  background-color: #393d49;
+  border-radius: 10px;
+  color: #fff;
+}
+.sign-in__wrap {
+  padding: 80px 70px;
+}
+.sign-in__username {
+  margin-top: 15px;
+}
+.sign-in__username input,
+.sign-in__password input {
+  width: 100%;
+  height: 30px;
+  border: none;
+  border-radius: 10px;
+  padding: 0 10px;
+  outline: none;
+  color: black;
+}
+.sign-in__password-text {
+  margin-top: 15px;
+}
+.sign-in__password {
+  margin-top: 15px;
+}
+.sign-in__button {
+  width: 110px;
+  height: 40px;
+  text-align: center;
+  line-height: 40px;
+  background-color: #f09159;
+  color: #fff;
+  border-radius: 10px;
+  margin-top: 40px;
+}
+.sign-in__create {
+  margin-top: 25px;
+  cursor: pointer;
+}
+.sign-in__orange {
+  color: #f47c3d;
+}
+.sign-in__close {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  width: 20px;
+  height: 20px;
+  background-image: url('../../../public/images/close.jpg');
+  background-size: cover;
+}

@@ -1,0 +1,31 @@
+.wishlist {
+  width: 90%;
+  margin: auto;
+  margin-top: 20px;
+  border-collapse: collapse;
+}
+.wishlist-tr {
+  border-bottom: solid 1px #ccc;
+}
+.wishlist-tr td,
+.wishlist-tr th {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  text-align: center;
+}
+.wishlist-tr th {
+  font-weight: 300;
+  color: #f29159;
+  font-size: 18px;
+}
+.wishlist-tr td {
+  font-size: 14px;
+}
+.wishlist-img {
+  width: 50px;
+  height: 100px;
+}
+.wishlist-action {
+  color: #1890ff;
+  cursor: pointer;
+}

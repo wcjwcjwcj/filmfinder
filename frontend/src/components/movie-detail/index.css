@@ -1,0 +1,85 @@
+.m-detail {
+  overflow-x: hidden;
+  overflow-y: scroll;
+  height: 700px;
+}
+.m-detail-top {
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.m-detail-qrcode {
+  width: 50px;
+  height: 50px;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.m-detail-img {
+  background-color: #ccc;
+  max-width: 200px;
+  max-height: 300px;
+}
+.m-detail-desc {
+  width: 300px;
+  margin-right: 20px;
+}
+.m-detail-tag {
+  display: inline-block;
+  margin-right: 10px;
+  margin-top: 10px;
+  border: solid #f29159 1px;
+  color: #f29159;
+  height: 26px;
+  line-height: 26px;
+  border-radius: 13px;
+  padding: 0 10px;
+  margin-bottom: 10px;
+}
+.m-detail-label {
+  color: #959595;
+}
+
+.m-detail-comment {
+  margin-top: 10px;
+}
+.m-detail-ctitle {
+  font-size: 16px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+.m-detail-ctitle-num {
+  font-size: 14px;
+  font-weight: normal;
+}
+.m-detail-new {
+  margin-top: 10px;
+  display: inline-block;
+  margin-right: 10px;
+  font-weight: normal;
+  color: #fff;
+  background-color: #f29159;
+  padding: 0 10px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.m-detail-comment-item {
+  padding-top: 10px;
+  margin-bottom: 10px;
+  border-top: solid #ccc 1px;
+}
+.m-detail-comment-name {
+  color: #f29159;
+  font-weight: bold;
+}
+.m-detail-comment-name span {
+  font-weight: normal;
+  font-size: 12px;
+  color: #959595;
+}
+.m-detail-comment-content {
+  color: #000;
+  font-size: 12px;
+}

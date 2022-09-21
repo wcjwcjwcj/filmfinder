@@ -1,0 +1,25 @@
+.header {
+  padding: 15px;
+  background-color: #383c49;
+  color: #fff;
+}
+.header-logo {
+  width: 30px;
+  vertical-align: middle;
+}
+.header-discover,
+.header-wish,
+.header-avator {
+  cursor: pointer;
+  display: inline-block;
+}
+.header-discover,
+.header-wish {
+  margin-left: 100px;
+  font-size: 20px;
+}
+.header-avator {
+  float: right;
+  vertical-align: middle;
+  font-size: 18px;
+}
